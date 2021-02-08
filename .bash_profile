@@ -47,7 +47,7 @@ alias gpush='git push'
 alias gcm='git commit -m'
 alias samo='cd ~/samo'
 alias njit='cd ~/njit/f20'
-
+alias funcsub='cd ~/workspace/epsagon-backend && STAGE=production py aws/lambda/lambda_tools/subscribe_account.py'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
