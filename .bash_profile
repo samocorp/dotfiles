@@ -19,9 +19,9 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # golang
 # export GOROOT=/usr/local/Cellar/go
-unset GOROOT
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 # command prompt
 # ref:
